@@ -119,6 +119,7 @@ async function detailBookData() {
 }
 detailBookData();
 
+// +,- & 총 금액
 $(document).on('click', '.fi-rs-minus-small', function(){
     const $input = $(this).siblings('input');
     let count = parseInt($input.val());
